@@ -1,4 +1,4 @@
-a=input("enter any string:")
+a=input("Enter a string:")
 b=a.split()
 b.sort()
-print("after sorting the string:",b)
+print("After sorting:",b)

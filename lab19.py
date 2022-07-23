@@ -1,5 +1,5 @@
-f=open("tej.txt",'r')
-t=f.readlines()
+f1=open('samplefile.txt','r')
+t=f1.readlines()
 for i in t:
     max=' '
     for j in i.split():

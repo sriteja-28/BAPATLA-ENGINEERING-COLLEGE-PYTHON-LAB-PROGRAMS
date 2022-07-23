@@ -1,4 +1,4 @@
 import random
-f=open("file1.txt",'r')
-t=f.readlines()
+f1=open('samplefile.txt','r')
+t=f1.readlines()
 print(random.choice(t))

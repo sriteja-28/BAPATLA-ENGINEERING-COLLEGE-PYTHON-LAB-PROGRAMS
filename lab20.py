@@ -1,9 +1,9 @@
-f1=open("tej.txt",'r')
-t1=f1.readlines()
-print("the content in the file1 is:",t1)
-f2=open("file1.txt",'r')
-t2=f2.readlines()
-print("the content in the file2 is:",t2)
-print("combining the each line:")
-for i,j in zip(t1,t2):
-    print((i+j).replace("\n"," "))
+f1=open('samplefile.txt','r')
+t=f1.readlines()
+print('The content in 1st file is:',t)
+f2=open('samplefile2.txt','r')
+t1=f2.readlines()
+print('The content in 2nd file is:',t1)
+print('Combining each line:')
+for i,j in zip(t,t1):
+    print((i+j).replace('\n',' '))

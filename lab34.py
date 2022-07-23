@@ -1,4 +1,5 @@
-d1={'key1':1,'key2':2,'key3':3}
-d2={'key1':1,'key2':2}
-for (key,value) in set(d1.items()) & set(d2.items()):
-    print("%s:%s is present in both d1 and d2"%(key,value))
+from collections import Counter
+data={'item1':45.50,'item2':35,'item3':41.30,'item4':55,'item5':24}
+k=Counter(data)
+p=k.most_common(3)
+print('The top 3 items are:',p)
